@@ -1,0 +1,250 @@
+@charset "UTF-8";
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  width: 100%;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+  list-style: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+/*background: #13161F;*/
+html,body{width: 100%;  }
+/* HTML5 媒体文件跟 img 保持一致 */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+address, caption, cite, code, dfn, em, th {
+  font-style: normal;
+  font-weight: normal;
+}
+html {
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 100%;
+}
+body{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+/* IE6对positon:fixed的单独处理修正IE6滚动抖动的bug */
+*html, *html body {
+  background-image: url(about:blank);/*修正IE6滚动抖动的bug*/
+  background-attachment: fixed;/*根据自己实际，非必需*/
+}
+
+/* 要注意表单元素并不继承父级 font 的问题 */
+body, button, input, select, textarea, h1,h2,h3,h4,h5,h6{
+  color: #333;
+  outline: none;
+  font: 14px/160% "Microsoft Yahei","Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+input, select, textarea {
+  font-size: 100%;
+}
+
+/* 重置button边框 */
+button {
+  border: none;
+}
+
+/* 去掉各Table cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* IE bug fixed: th 不继承 text-align*/
+th {
+  text-align: inherit;
+}
+
+/* 对齐是排版最重要的因素, 别让什么都居中 */
+caption, th {
+  text-align: left;
+}
+
+/* 去除默认边框 */
+fieldset, img {
+  border: none;
+  outline: none;
+  -moz-outline: none;
+}
+
+/* ie6 7 8(q) bug 显示为行内表现 */
+iframe {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.9;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+img{
+  display: block;
+  border: 0;
+  margin: 0 auto;
+}
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #333;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #333;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input, select {
+  vertical-align: middle;
+}
+
+/* 清除浮动 */
+.clearfix:before, .clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  content: "";
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+/*解决盒模型问题css3属性也可用来统一FORM元素风格*/
+.box-sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 主内容样式 */
+.flex-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-con {
+  -webkit-box-flex: 1;
+  -moz-box-flex:1;
+  -webkit-flex: 1;
+  -ms-flex:1;
+  flex: 1;
+}
+.flex-vertical {
+  -webkit-box-orient: vertical;
+  -webkit-flex-flow: column;
+  flex-flow: column;
+}
+.fl{
+  float: left;
+}
+.text-center{
+  text-align: center!important;
+}
+.text-right{
+  text-align: right!important;
+}
+body{
+  min-width: 1200px;
+  overflow: auto;
+}
+i{font-style:normal;}
+b{font-weight:100;}
+/*保存成功*/
+.save-success,.save-success-twobtn{width:318px ;height: 184px;position: fixed;left:50%;margin-left:-161px;right: 0;top:50%;text-align:center;background:#13161F;display:none;padding-top: 57px;padding-bottom: 20px;
+  z-index: 1;}
+.save-success p,.save-success-twobtn p{width: 90%;text-align: center;margin-bottom:57px;font-size:16px;color: #fff;padding: 0 5%}
+.save-success .save-sure{margin:0 auto;   width: 166px;}
+/*#13161f*/
+.save-success .save-sure{
+  height: 38px;font-size: 16px;color:#fff;text-align: center;  line-height: 38px;background: #dd4c39;cursor: pointer;border-radius: 8px;}
+.save-yes,.save-no{width: 88px; height: 38px;font-size: 16px;color:#fff;text-align: center;  line-height: 38px;background: #dd4c39;cursor: pointer;border-radius: 8px;}
+.save-success-twobtn .p_transfer_input{
+  margin: 25px 0;
+}
+.p_transfer_input input{
+  width: 80%;
+  display: inline-block;
+  margin: 0 auto;
+  height: 30px;
+  border:1px solid #DD4C39;
+  border-radius: 5px;
+  background: transparent;
+  color: #949aa6;
+}
+.save-success .save-no{}
+.save-success .save-yes{margin-top: 40px;}
+.transbox,.transbox1,.transbox2{
+  width: 100%;
+  height:1000px;
+  position: fixed;
+  top:0;
+  background-color: rgba(0,0,0,0.4);
+  left: 0;
+  display: none;
+}

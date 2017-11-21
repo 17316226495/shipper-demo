@@ -1,0 +1,179 @@
+@charset "UTF-8";
+.el-input__inner {
+  height: 22px;
+}
+.el-pagination {
+  float: right;
+}
+.div_cer_top {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+.div_cer_top .div_title {
+  padding: 30px;
+}
+.div_cer_top .div_title .div_data {
+  width: 27%;
+}
+.div_cer_top .div_title .div_phone {
+  width: 20%;
+}
+.div_cer_top .div_title .div_state {
+  width: 45%;
+}
+.div_cer_top .div_title div {
+  float: left;
+}
+.div_cer_top .div_title div input,
+.div_cer_top .div_title div select,
+.div_cer_top .div_title div button {
+  border: 1px solid #949aa6;
+  color: #949aa6;
+  text-indent: 8%;
+  font-size: 11px;
+  border-radius: 5px;
+}
+.div_cer_top .div_title div input,
+.div_cer_top .div_title div button {
+  background: none;
+}
+.div_cer_top .div_title div select {
+  width: 100px;
+}
+.div_cer_top .div_title div button {
+  width: 60px;
+}
+.div_cer_top .div_title div button:hover {
+  background: #dd4c39;
+  color: #f0f0f0;
+}
+.div_cer_top .div_table {
+  width: 95%;
+  padding-top: 15px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.div_cer_top table {
+  width: 100%;
+  height: auto;
+}
+.div_cer_top table th {
+  text-align: center;
+  border-bottom: 1px solid #949aa6;
+  line-height: 39px;
+}
+.div_cer_top table tbody tr {
+  line-height: 39px;
+}
+.div_cer_top table tbody tr:hover {
+  background: #f0f0f0;
+}
+.div_cer_top table tbody tr td {
+  text-align: center;
+  cursor: pointer;
+  width: 16%;
+}
+.div_cer_top table tbody tr td:nth-of-type(5) {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 280px;
+}
+.div_certification {
+  width: 100%;
+  height: auto;
+  margin-top: 21px;
+  min-width: 1200px;
+}
+.div_certification .div_driver_info {
+  border-right: 1px solid #949AA6;
+}
+.div_certification button {
+  width: 94px;
+  -webkit-appearance: none;
+  float: left;
+  margin-left: 4px;
+  color: #949aa6;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #949aa6;
+  cursor: pointer;
+  height: 21px;
+}
+.div_certification .div_info {
+  width: 50%;
+  height: 600px;
+  float: left;
+  box-sizing: border-box;
+  border-bottom: 1px solid #949aa6;
+  margin-bottom: 20px;
+  padding-left: 30px;
+}
+.div_certification .div_info .span_text_color {
+  color: #dd4c39;
+}
+.div_certification .div_info .div_diver_info {
+  float: left;
+  width: 300px;
+}
+.div_certification .div_info .div_diver_info .div_img_info {
+  border: 1px solid #949aa6;
+  margin-bottom: 32px;
+}
+.div_certification .div_info .div_diver_info .div_img_info .div_btn {
+  width: 200px;
+  height: 20px;
+  margin: 10px auto;
+}
+.div_certification .div_info .div_diver_info .div_img_info .div_imgs {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.div_certification .div_info .div_diver_info .div_img_info .div_imgs img {
+  width: 180px;
+  height: 180px;
+  padding-top: 10px;
+  margin: 0 auto;
+  display: block;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo {
+  padding-left: 20px;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo .p_result {
+  margin-top: 20px;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo p {
+  margin-bottom: 10px;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo p span {
+  font-size: 13px;
+  margin: 0;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo p select {
+  width: 80px;
+  border-radius: 5px;
+  color: #949aa6;
+  padding-left: 3px;
+  font-size: 12px;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo .div_nopass_content {
+  font-size: 13px;
+}
+.div_certification .div_info .div_diver_info .div_driverinfo .div_nopass_active {
+  display: block;
+}
+.div_certification .div_info .div_driver_right {
+  width: 260px;
+}
+.div_certification .clearflow {
+  clear: both;
+}
+.div_certification .div_opt {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}

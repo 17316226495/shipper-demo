@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.content {
+  background: none repeat scroll 0 0 #f0f0f0;
+  position: absolute;
+  left: 188px;
+  right: 0;
+  top: 34px;
+  bottom: 0;
+  width: auto;
+  padding: 21px 0 0 21px;
+  box-sizing: border-box;
+}

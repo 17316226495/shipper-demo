@@ -1,0 +1,70 @@
+html,body{width: 100%;height: 100%;}
+/*@media only screen and (max-width: 1200px){*/
+/*html,body{width: 100%;height: 2126px;}*/
+/*}*/
+#land-box{width: 100%;height: 100%;position: relative;}
+
+#land-box .div_img{background:url("../../static/img/logistic_bag.png") no-repeat center;background-size: cover ;/* Chrome, Safari, Opera */  width: 100%;height: 100%}
+.land{width: 376px;height:506px ;position: fixed;left: 0;right: 0;top: 0;bottom: 0;margin:auto;
+    font-size: 16px;color:#949AA6 ;background: #1A1E29;padding:33px 33px 0 30px;box-sizing: border-box;}
+.land p{margin-bottom: 18px;height: 53px;text-align: center}
+.land p input{background: none;border:1px solid #949aa6;border-radius: 5px;height: 35px;color: #949AA6;
+    padding-left: 10px;box-sizing: border-box;line-height: 20px;}
+.land .p-logo{padding: 2px 0 24px 0 }
+.land .p-phone{height: 20px;text-align: center}
+.land p i{font-size: 12px;margin-left: 50px;display: inline-block;width: 100%;text-align: left; font-style: normal;}
+.land .title{text-align: center;height: 28px;}
+.land label{margin-right: 26px;float: left;line-height: 35px;}
+.land .user input{width: 239px;}
+.land .password input{background: none;width:240px;}
+.land .code{line-height: 35px;}
+.land .code  input{width: 115px;height: 35px;margin-right: 24px;float: left;margin-left: 37px;
+}
+.land .code span{width: 100px;height: 35px;float:left;background: #13161F;cursor: pointer;}
+
+.land .code .input-code{width: 100px;height: 35px;float:left;background: #13161F;cursor: pointer;border-radius: 8px;margin: 0;text-align: center}
+.land .code{position: relative;}
+.land .code i{position: absolute;left: 0;top: 30px;}
+.land .forget a{font-size: 12px;margin-left: 226px;color: #949AA6;}
+.land .forget{margin-bottom: 12px;height: auto;}
+.land .land-btn button{margin-left:39px;width: 239px;color: #fff;text-align: center;line-height: 34px;display: block;border-radius: 8px; margin-top: 18px;text-decoration: none;border: none}
+.land .land-btn .unableBtn{background: #949aa6}
+.land .land-btn .ableBtn{background: #dd4c39;}
+/*忘记密码*/
+.forget-password p{margin-bottom: 13px;}
+.forget-password .code{margin-bottom: 5px;}
+/*设置密码*/
+.set-password{width: 378px;height: 600px;}
+.set-password p .com-input{width: 239px;}
+.set-password p{margin-bottom: 16px;height: 51px;}
+.set-password p i{margin-left: 50px;}
+.set-password .code i{margin-left: 0px;}
+.set-password .code .testcode{margin-left:0;}
+.set-password .remove-btn{width: 115px;height: 34px;background: #dd4c39;color: #fff;text-align: center;line-height:34px ;border-radius: 8px;
+    margin:0 27px 0 35px;cursor: pointer;float: left;}
+.set-password .sure-btn{width: 115px;height: 34px;background: #dd4c39;color: #fff;text-align: center;border-radius: 8px;
+    line-height:34px ;cursor: pointer;float: left;}
+.set-password i{display:block;}
+.set-password .code{position: relative;}
+.set-password .code i{position: absolute;left: 48px;top: 28px;}
+.set-password .scode {position: relative;}
+.set-password .scode input{width: 115px;height: 35px;margin-right: 10px;float: left;}
+.set-password .scode span{width:100px ;height: 35px;float: left;font-size:12px;background: #949AA6;border-radius: 5px;text-align: center;line-height: 35px;color: #000;cursor: pointer;}
+.set-password .scode i{position: absolute;left: 0;top: 33px;}
+/*弹出框*/
+#dp-modal{width: 233px;height: 150px;background: #141821;padding: 33px 34px 0;box-sizing: border-box;position: fixed;right: 0;left: 0;top: 240px;margin: 0 auto;display: none;}
+#dp-modal p{text-align: center;font-size: 14px;color:#949AA6 ;margin-bottom: 33px;}
+#dp-modal button{width: 100%;height: 35px;background: #22262e;text-align: center;line-height: 35px;font-size: 14px;color: #727884;cursor: pointer;}
+#land-box .div_bottom{
+    position: absolute;
+    top:90%;
+    height: 70px;
+    line-height:70px;
+    width: 100%;
+    text-align: center;
+    color: #949aa6;
+}
+.land .p-title2{height: 36px}
+.land-box .p-title1{display: inline-block}
+.land-box .p-tphone{display: inline-block}
+.landActive{color: #dd4c39}
