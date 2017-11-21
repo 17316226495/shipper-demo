@@ -13,3 +13,17 @@ cd logistic-project
 npm install
 npm run dev
 
+## 执行命令
+	cd qvbupProject	
+## 安装依赖
+	npm install		
+  npm install element-ui  //里面的文件夹名可能会改变 main.js 引入index默认样式 注意
+  npm install sass-loader
+  npm install webpack-zepto
+  npm install node-sass
+
+	npm run dev 
+ 
+
+// import 'element-ui/lib/theme-default/index.css';    // 默认主题
+
