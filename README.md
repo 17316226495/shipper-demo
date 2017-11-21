@@ -27,5 +27,7 @@ npm run dev
 	npm run dev 
  
 
-// import 'element-ui/lib/theme-default/index.css';    // 默认主题
-import 'element-ui/lib/theme-chalk/index.css'  最新下载下来的element-ui 引入默认样式
+import ElementUI from '../node_modules/element-ui';
+import '../node_modules/element-ui/lib/theme-chalk/index.css'
+// import 'element-ui/lib/theme-default/index.css';    // 默认主题
+//import 'element-ui/lib/theme-chalk/index.css'  最新下载下来的element-ui 引入默认样式
